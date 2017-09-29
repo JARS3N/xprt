@@ -1,0 +1,10 @@
+Package: xprt
+Type: Package
+Title: converts files rom xfd to asy to xlsx
+Version: 0.1.0
+Author: J.Arsenault
+Maintainer: Who to complain to <JARS3N@GMAIL.COM>
+Description: convert xfd -> asyr -> xlsx
+License: none
+Encoding: UTF-8
+LazyData: true
