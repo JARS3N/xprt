@@ -1,4 +1,4 @@
-open_save_xl_wb2<-function(u=getwd()){
+open_save_xl_wb<-function(u=getwd()){
   system(
     paste(
       "Cscript",
