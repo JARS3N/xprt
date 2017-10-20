@@ -1,3 +1,3 @@
-torquemada<-function(Dir){
-  shell(paste0('torquemada',' "',Dir,'" -s'))
-}
+#torquemada<-function(Dir){
+#  shell(paste0('torquemada',' "',Dir,'" -s'))
+#}
