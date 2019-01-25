@@ -1,3 +1,8 @@
-ls_files<-function(){
-lapply(ls(),function(u){dump(u,paste0(u,".R"),append=F)})
+ls_files <- function() {
+  ls <- ls()
+  files <- paste0(u, ".R")
+  Map(function(ls, file) {
+    dump(ls, file, append = F)
+    print(paste0("Created file: ",file))
+  }, ls = ls, file = files) 
 }
