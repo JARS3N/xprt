@@ -1,8 +1,7 @@
-ls_files <- function() {
-  ls <- ls()
-  files <- paste0(ls, ".R")
-  Map(function(ls, file) {
-    dump(ls, file, append = F)
-    print(paste0("Created file: ",file))
-  }, ls = ls, file = files) 
+ls_files <- function(ls) {
+  nyet <- lapply(ls, function(l) {
+    fl <- paste0(l, ".R")
+    dump(l, fl, append = F)
+    message(paste0("Created file: ", fl))
+  })
 }
